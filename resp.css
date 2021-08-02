@@ -1,0 +1,250 @@
+* {
+  margin:0;
+  padding:0;
+    box-sizing:initial;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  
+  .column  {
+    float: left;
+    width: 30%;
+    padding: 0 10px;
+    
+  }
+  .columnr {
+    float: left;
+    width: 70%;
+    padding: 0 15px;
+    text-align: justify;
+  }
+  .columnrr {
+    float: left;
+    width: 65%;
+    padding: 0 15px;
+    text-align: justify;
+  }
+  .column1{
+    float: left;
+    width: 35%;
+    padding: 0 10px;
+    
+  }
+  
+  .row {margin: 5 -5px;}
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  .card {
+    padding: 10px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+  .card-1 {
+    padding: 10px;
+    text-align: center;
+    background-color: none;
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display:block;
+      margin-bottom: 15px;
+    }
+  }
+ .contact {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 5px;
+  }
+  
+  .contact  .row{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  
+  .contact .content .row {
+    background: #fff;
+    width: 240px;
+    margin: 20px;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+  }
+  
+  .contact .content .row {
+    color: #3a6cf4;
+    font-size: 4em;
+    text-align: center;
+    transition: transform 0.5s ease;
+  }
+  
+  .contact .content .row {
+    transform: translateY(-10px);
+  }
+  
+  .contact .content .row {
+    text-align: center;
+  }
+  
+  .contact .content .row  h3{
+    color: #111;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 2px;
+  }
+  
+  .contact .content .row  span{
+    color: #666;
+    font-weight: 500;
+  }
+  
+  .contact-form{
+    background: #fff;
+    max-width: 600px;
+    margin-top: 10px;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+  }
+  
+  .contact-form h3{
+    color: #111;
+    font-size: 1.6em;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .contact-form .input-box{
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form  input, textarea{
+    color: #111;
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    font-weight: 400;
+    outline: none;
+    border: 1px solid #111;
+    border-radius: 5px;
+    resize: none;
+  }
+  
+  .contact-form .input-box .send-btn{
+    color: #fff;
+    background: #0a47f0;
+    display: inline-block;
+    font-size: 1.1em;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s ease;
+  }
+  
+  .contact-form  .send-btn:hover{
+    background: #5882f8;
+  }
+  .footer-t{
+    font-size: 20px;
+    font-weight: 700;
+
+  }
+  .footer p{
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+
+.im {
+  height:300px;
+  width:250px;position:relative;
+ 
+ bottom:-7px;
+  
+  object-fit: scale-down;
+}
+.myself{
+  position:relative;
+  left:125px;
+}
+#bg{
+  background-image: url('./bg.jpeg');
+   
+    background-repeat: no-repeat;
+    background-size: 580px 339px;
+background-color:black;
+
+
+}
+
+h1{
+     font-family: 'Artifika';font-size: 50px;
+    
+     color:white;
+     position:relative;
+    
+  }
+ 
+.sym{
+color:white;
+}
+
+#col-right{
+
+font-weight:500;
+text-align: justify;
+
+}
+section{
+padding: 100px 140px;
+}
+#edu{
+color:#01090f;
+
+
+}
+.e-head{
+font-weight:700;
+
+}
+
+
+.w {
+text-align:justify;
+color:rgb(255, 255, 255);
+
+}
+#wimages{
+top:200px;
+}
+#p{
+text-align:left;
+}
+span{
+font-weight:500;
+}
